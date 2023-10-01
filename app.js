@@ -7,9 +7,9 @@ async function searchWeather() {
   
     const weatherData = `
       <h1>${data.name}</h1>
-      <p>Temperature: ${data.main.temp / 12}°C</p>
-      <p>Humidity: ${data.main.humidity}%</p>
-      <p>Wind speed: ${data.wind.speed} km/h</p>
+      <p>Temperatura: ${data.main.temp / 12}°C</p>
+      <p>Humedad: ${data.main.humidity}%</p>
+      <p>Viento: ${data.wind.speed} km/h</p>
     `;
   
     document.getElementById('weather-data').innerHTML = weatherData;
